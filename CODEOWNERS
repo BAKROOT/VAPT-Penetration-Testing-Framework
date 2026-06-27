@@ -1,0 +1,30 @@
+# CODEOWNERS — VAPT Penetration Testing Framework
+#
+# Defines review ownership for areas of this repository.
+# Replace the placeholder teams (@org/...) with your real GitHub org teams.
+# Order matters: the LAST matching pattern takes precedence.
+
+# Default owners for everything
+*                           @org/security-leads
+
+# Methodology and standards
+/methodology/               @org/pentest-team @org/security-leads
+
+# Scope, ROE, and authorization — sensitive, requires lead sign-off
+/scope-rules-of-engagement/ @org/security-leads
+
+# Testing checklists
+/checklists/                @org/pentest-team
+
+# Report and findings templates
+/templates/                 @org/pentest-team @org/security-leads
+/reporting/                 @org/security-leads
+
+# Findings register and scoring
+/findings/                  @org/pentest-team
+
+# Remediation tracking
+/remediation/               @org/security-leads @org/remediation-owners
+
+# Tooling references
+/tools/                     @org/pentest-team
