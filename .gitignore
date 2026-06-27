@@ -1,0 +1,37 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+
+# Sensitive engagement data — NEVER commit real client data, scope, or evidence
+*.local
+*.env
+secrets/
+evidence/raw/
+scope/live/
+clients/
+*.pcap
+*.nessus
+*.kdbx
+
+# Tool output (keep sanitized samples only)
+nmap-*.xml
+*.gnmap
+*.nmap
+burp-*.json
+zap-report-*.html
+loot/
+screenshots/raw/
+
+# Archives & exports
+*.zip
+*.tar.gz
+*.7z
+
+# Logs
+*.log
+logs/
