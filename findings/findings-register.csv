@@ -1,0 +1,7 @@
+finding_id,title,asset,category,cwe,severity,cvss_score,cvss_vector,status,date_identified,checklist_ref,owner,remediation_due,notes
+F-001,SQL Injection in login form,https://app.example.com/login,Injection,CWE-89,Critical,9.8,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H,Open,2025-01-10,WEB-INPUT-01,app-team,2025-01-24,Example row - replace with real data outside this repo
+F-002,Stored XSS in profile bio,https://app.example.com/profile,Cross-Site Scripting,CWE-79,High,7.4,CVSS:3.1/AV:N/AC:L/PR:L/UI:R/S:C/C:H/I:L/A:N,Open,2025-01-10,WEB-INPUT-02,app-team,2025-01-31,Example row
+F-003,Missing rate limiting on API auth,https://api.example.com/v1/auth,Broken Authentication,CWE-307,Medium,5.3,CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:L,Open,2025-01-11,API-AUTH-04,api-team,2025-02-15,Example row
+F-004,TLS 1.0 enabled on web server,https://app.example.com,Security Misconfiguration,CWE-327,Medium,5.9,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:H/I:N/A:N,Open,2025-01-11,WEB-CONFIG-03,infra-team,2025-02-15,Example row
+F-005,Verbose error message discloses stack trace,https://app.example.com/error,Information Disclosure,CWE-209,Low,3.7,CVSS:3.1/AV:N/AC:H/PR:N/UI:N/S:U/C:L/I:N/A:N,Open,2025-01-12,WEB-ERROR-01,app-team,2025-03-01,Example row
+F-006,Security headers missing (CSP/HSTS),https://app.example.com,Security Misconfiguration,CWE-693,Low,3.1,CVSS:3.1/AV:N/AC:H/PR:L/UI:N/S:U/C:L/I:N/A:N,Open,2025-01-12,WEB-CONFIG-02,app-team,2025-03-01,Example row
