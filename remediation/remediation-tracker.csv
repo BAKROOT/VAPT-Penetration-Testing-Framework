@@ -1,0 +1,7 @@
+finding_id,title,severity,owner,remediation_action,status,date_assigned,due_date,date_fixed,retest_result,retest_date,notes
+F-001,SQL Injection in login form,Critical,app-team,Use parameterized queries / prepared statements,In Progress,2025-01-10,2025-01-17,,Pending,,Example row - replace with real data outside this repo
+F-002,Stored XSS in profile bio,High,app-team,Output-encode user input and apply CSP,Open,2025-01-10,2025-01-24,,Pending,,Example row
+F-003,Missing rate limiting on API auth,Medium,api-team,Add throttling and account lockout,Open,2025-01-11,2025-02-10,,Pending,,Example row
+F-004,TLS 1.0 enabled on web server,Medium,infra-team,Disable TLS 1.0/1.1 and enforce TLS 1.2+,Fixed,2025-01-11,2025-02-10,2025-01-20,Pass,2025-01-22,Example row
+F-005,Verbose error discloses stack trace,Low,app-team,Return generic errors and log details server-side,Open,2025-01-12,2025-04-12,,Pending,,Example row
+F-006,Security headers missing,Low,app-team,Add CSP / HSTS / X-Content-Type-Options headers,Open,2025-01-12,2025-04-12,,Pending,,Example row
